@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container{
+    height: 75vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-btn{
+        margin: 12px 0;
+            height: 45px;
+            background-color: #171717;
+            width: 178px;
+            color: aquamarine;
+            border-radius: 12px;
+            border: black;
+            cursor: pointer;
+}
+
+.contact-btn:hover {
+    height: 45px;
+    background-color: #150d0d;
+    width: 178px;
+    color: rgb(68, 142, 117);
+    border-radius: 12px;
+    border: black;
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/home.css">
+    <title>Parbhat's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://github.com/parbhat-cpp?tab=repositories">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="left">
+                Hi i am <span class="text-color">Parbhat</span>
+                I am a web developer
+                <br>
+                <br>
+                Can work in folowing technologies
+                <br>
+                <span id="element"></span>
+                <br>
+                <div id="btn-div">
+                    <a href="https://www.naukri.com/mnjuser/profile?id=&altresid">
+                        <button id="btn">
+                            Naukri Profile
+                        </button>
+                    </a>
+                    
+                    <a href="https://github.com/parbhat-cpp">
+                        <button id="btn">
+                            Visit GitHub
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+            <div class="right">
+                <img src="/pngdev.png" alt="">
+            </div>
+        </section>
+        <section class="secondSection">
+            <hr>
+            <div class="content">
+                <h1>
+                    How you can hire me
+                </h1>
+                <p id="para">
+                    You just have to visit the contacts links provided above inside the nav bar. You have to provide the
+                    layout and details about your project like what you want and all. At last we will discuss about
+                    the budget of your project.
+                </p>
+                <h1>
+                    What i can do?
+                </h1>
+                <p id="para">
+                    I can build your web project using HTML, CSS, JavaScript for frontend ,Node.js for backend and
+                    MongoDB for database.
+                    I can handle backend work more efficiently then frontend. Building frontend is not my expertise
+                    still i can work on both frontend and backend.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="/home.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['C', 'C++', 'Java', 'JavaScript', 'Node.js'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: aquamarine;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 21px 21px;
+}
+
+.container h1{
+    font-size: 2.7rem;
+}
+
+.para{
+    margin: 3% 0;
+    padding: 9px 0;
+    font-size: large;
+    width: 45%;
+    color: thistle;
+}

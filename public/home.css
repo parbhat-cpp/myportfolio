@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: rgb(23, 23, 23);
+    padding: 23px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: aquamarine;
+    margin: 0 11px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: none;
+    color: rgb(68, 142, 117);
+    margin: 0 11px;
+}
+
+.firstSection{
+    height: 47vh;
+    display: flex;
+    margin: 107px 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.left{
+    font-size: 3rem;
+    color: aquamarine;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right img{
+    width: 75%;
+}
+/*
+#btn{
+    height: 16%;
+    background-color: #331e1e;
+    width: 34%;
+    color: white;
+    border-radius: 12px;
+    border: black;
+}
+*/
+#btn-div{
+    width: 100%;
+    height: 100%;
+    margin: 9px 0;
+}
+
+#btn {
+    height: 16%;
+    background-color: #171717;
+    width: 34%;
+    color: aquamarine;
+    border-radius: 12px;
+    border: black;
+    cursor: pointer;
+}
+
+#btn:hover {
+    height: 16%;
+    background-color: #150d0d;
+    width: 34%;
+    color: rgb(68, 142, 117);
+    border-radius: 12px;
+    border: black;
+    cursor: pointer;
+}
+
+.secondSection{
+    padding: 12px 21px;
+    color: aquamarine;
+}
+
+.secondSection hr{
+    height: 1px;
+    color: rgb(74, 159, 131);
+    background-color: rgb(74, 159, 131);
+    border: 0;
+}
+
+.content{
+    padding: 4rem;
+}
+
+.content h1{
+    font-size: 2.5rem;
+}
+
+#para{
+    margin: 22px 0;
+}
+
+.text-color{
+    color:darkmagenta;
+}
